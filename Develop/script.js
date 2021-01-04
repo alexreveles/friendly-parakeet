@@ -17,8 +17,7 @@ THEN the password is either displayed in an alert or written to the page*/
 // Assignment code here
 
 // Add event listener to generate button
-generateBtn.addEventListener("click", writePassword); 
-// CTA = Call to Action - GENERATE PASSWORD
+
 
 // Get references to the #generate element
 var generateBtn = document.querySelector("#generate");
@@ -109,3 +108,5 @@ function generatePassword(length, special) {
   window.alert("Your password is " + password);
   return password;
 }
+generateBtn.addEventListener("click", writePassword); 
+// CTA = Call to Action - GENERATE PASSWORD
