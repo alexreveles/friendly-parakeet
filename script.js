@@ -50,22 +50,21 @@ function generatePassword(passwordLength, upperCheck, lowerCheck, numericalCheck
 
 for (let i = 0; i < passwordLength; i++)
 {
-  // 0 - 3
-  // 1 + 4
+ 
   let randomNumber = Math.floor(Math.random() * 4 + 1)
-  if (randomNumber == 1 && upperCheck)
+  if (randomNumber === 1 && upperCheck)
   {
     password += uppercasePassword[Math.floor(Math.random() * uppercasePassword.length)]
   }
-  if (randomNumber == 2 && lowerCheck)
+  if (randomNumber === 2 && lowerCheck)
   {
     password += lowercasePassword[Math.floor(Math.random() * lowercasePassword.length)]
   }
-  if (randomNumber == 3 && numericalCheck)
+  if (randomNumber === 3 && numericalCheck)
   {
     password += numericPassword[Math.floor(Math.random() * numericPassword.length)]
   }
-  if (randomNumber == 4 && specialCheck)
+  if (randomNumber === 4 && specialCheck)
   {
     password += specialCharactersPassword[Math.floor(Math.random() * specialCharactersPassword.length)]
   }
