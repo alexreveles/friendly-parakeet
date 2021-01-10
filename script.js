@@ -45,7 +45,7 @@ function generatePassword(passwordLength, upperCheck, lowerCheck, numericalCheck
   var uppercasePassword = "ABCDEFGHIJKLMNOPQRSTUVWXYZ"; // uppercase
   var lowercasePassword = "abcdefghijklmnopqrstuvwxyz"; // lowercase
   var numericPassword = "0123456789"; // numer
-  var specialCharactersPassword = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789#$!@!$^&"; //special
+  var specialCharactersPassword = "#$!@!$^&"; //special
   let password = "";
 
 for (let i = 0; i < passwordLength; i++)

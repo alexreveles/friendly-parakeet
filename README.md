@@ -7,4 +7,3 @@
  * Javascript
 
  ### View my Deployed link here:  https://alexreveles.github.io/friendly-parakeet/
- 
