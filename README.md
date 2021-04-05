@@ -6,4 +6,4 @@
  * HTML
  * Javascript
 
- ### View my Deployed link here:  https://github.com/alexreveles/password-generator
+ ### View my Deployed link here:  file:///Users/alexreveles/Desktop/projects/password-generator/index.html
